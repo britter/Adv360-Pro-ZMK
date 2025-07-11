@@ -81,11 +81,11 @@
 
         symbols {
             bindings = <
-&none  &none  &none  &none      &none           &none  &none                                  &none  &none  &none                 &none                  &none           &none                  &none
-&none  &none  &none  &kp PLUS   &kp UNDERSCORE  &none  &none                                  &none  &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none           &none                  &none
-&none  &none  &none  &kp EQUAL  &kp MINUS       &none  &none  &none  &none      &none  &none  &none  &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_PARENTHESIS  &none
-&none  &none  &none  &none      &none           &none                &none      &none                &none  &none                 &none                  &none           &none                  &none
-&none  &none  &none  &none      &none                  &none  &none  &none      &none  &none  &none         &none                 &none                  &none           &none                  &none
+&none  &none      &none      &none      &none           &none  &none                                  &none  &none  &none                 &none                  &none           &none            &none
+&none  &none      &none      &kp PLUS   &kp UNDERSCORE  &none  &none                                  &none  &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none           &none            &none
+&none  &kp GRAVE  &kp TILDE  &kp EQUAL  &kp MINUS       &none  &none  &none  &none      &none  &none  &none  &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &none
+&none  &none      &none      &none      &none           &none                &none      &none                &none  &none                 &none                  &none           &none            &none
+&none  &none      &none      &none      &none                  &none  &none  &none      &none  &none  &none         &none                 &none                  &none           &none            &none
             >;
         };
 
